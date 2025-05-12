@@ -121,11 +121,11 @@ const AdminEditProduct = ({
          />
 
 
-         <label htmlFor='brandName' className='mt-3'>Brand Name :</label>
+         <label htmlFor='brandName' className='mt-3'>Publisher Name :</label>
          <input 
            type='text' 
            id='brandName' 
-           placeholder='enter brand name' 
+           placeholder='enter publisher name' 
            value={data.brandName} 
            name='brandName'
            onChange={handleOnChange}

@@ -10,17 +10,14 @@ const Home = () => {
       <CategoryList/>
       <BannerProduct/>
 
-      <HorizontalCardProduct category={"airpodes"} heading={"Top's Airpodes"}/>
-      <HorizontalCardProduct category={"watches"} heading={"Popular's Watches"}/>
+      <HorizontalCardProduct category={"fiction"} heading={"Now Trending"}/>
+      <HorizontalCardProduct category={"non-fiction"} heading={"Best Sellers"}/>
 
-      <VerticalCardProduct category={"mobiles"} heading={"Mobiles"}/>
-      <VerticalCardProduct category={"Mouse"} heading={"Mouse"}/>
-      <VerticalCardProduct category={"televisions"} heading={"Televisions"}/>
-      <VerticalCardProduct category={"camera"} heading={"Camera & Photography"}/>
-      <VerticalCardProduct category={"earphones"} heading={"Wired Earphones"}/>
-      <VerticalCardProduct category={"speakers"} heading={"Bluetooth Speakers"}/>
-      <VerticalCardProduct category={"refrigerator"} heading={"Refrigerator"}/>
-      <VerticalCardProduct category={"trimmers"} heading={"Trimmers"}/>
+      <VerticalCardProduct category={"academic-educational"} heading={"New Arrivals"}/>
+      <VerticalCardProduct category={"children-young-adult"} heading={"International Bestseller"}/>
+      <VerticalCardProduct category={"comics-graphic-novels"} heading={"Award Winners"}/>
+      <VerticalCardProduct category={"literature-language"} heading={"BW Top Books"}/>
+      
     </div>
   )
 }

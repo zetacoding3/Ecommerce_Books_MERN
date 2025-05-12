@@ -58,3 +58,14 @@ async function userSignUpController(req,res){
 }
 
 module.exports = userSignUpController
+
+
+// db.users.insertOne({
+//   name: "Amjad Raza",
+//   email: "amjad@example.com",
+//   password: "$2a$10$u4O246dIjnHxi70p42N14uIyHLe7KVagAw5Ft52BBVYYuUkqnV6Qy",  
+//   profilePic: "https://example.com/images/profile-pic.jpg",
+//   role: "admin",
+//   createdAt: new Date(),
+//   updatedAt: new Date()
+// })
